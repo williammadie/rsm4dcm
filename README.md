@@ -1,5 +1,7 @@
 # rsm4dcm
 
+![PyPI - License](https://img.shields.io/pypi/l/rsm4dcm) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/rsm4dcm) ![GitHub last commit](https://img.shields.io/github/last-commit/williammadie/rsm4dcm)
+
 `rsm4dcm` is a Python library for recursively searching DICOM files inside a folder with subdirectories and then moving them into another folder.
 
 Most of the public medical images can be downloaded from the [NBIA Data Retriever tool](https://wiki.cancerimagingarchive.net/display/NBIA/Downloading+Images+Using+the+NBIA+Data+Retriever)
