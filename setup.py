@@ -9,12 +9,7 @@ setuptools.setup(
     author="William Madié",
     author_email="william.madie0@gmail.com",
     description="Recursively searches for dicom files & move them where you want.",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
-    project_urls={
-        "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
-    },
+    url="https://github.com/williammadie/tree/master",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
