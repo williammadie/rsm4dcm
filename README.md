@@ -28,7 +28,7 @@ pip install rsm4dcm
 `rsm4dcm` as a standalone python application
 
 ```bash
-python3 rsm4dcm -t /home/william/dicom_source -o /home/william/dicom_dest
+python3 -m rsm4dcm -t /home/william/dicom_source -o /home/william/dicom_dest
 ```
 
 `rsm4dcm` as a python module
