@@ -7,8 +7,11 @@ provided by the [TCIA](https://www.cancerimagingarchive.net/). As explained on t
 
 Once downloaded, these medical images are placed into a **directory containing many different subdirectories** as described by the first picture.
 
+![img_1](/doc/images/img_dcm_source.png)
 
 Whether you are a health professional or a developer, you might need to reorganize these files into **a simple folder** where each and every file is directly accessible.
+
+![img_1](/doc/images/img_dcm_dest.png)
 
 ## Installation
 
