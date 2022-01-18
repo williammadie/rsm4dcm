@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as file:
 
 setuptools.setup(
     name="rsm4dcm",
-    version="0.0.1",
+    version="0.0.2",
     author="William Madié",
     author_email="william.madie0@gmail.com",
     description="Recursively searches for dicom files & move them where you want.",

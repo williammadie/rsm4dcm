@@ -4,7 +4,7 @@ import os
 
 
 # RSM : Recursive Search & Move
-def rsm(target_dir, outdir):
+def rsm(target_dir: str, outdir: str) -> None:
     """
     Does a recursive search in the @target_dir and then make a copy of all
     the files found directly into the @outdir.
@@ -17,4 +17,7 @@ def rsm(target_dir, outdir):
         shutil.copy2(file, os.path.join(outdir, f"dicom_{str(count)}.dcm"))
         count += 1
 
-    print("Aucun fichier DICOM n'a été trouvé.") if not count else None
+    if count:
+        print(f"{count} DICOM files have been found and moved.")
+    else:
+        print("No DICOM file has been found.")

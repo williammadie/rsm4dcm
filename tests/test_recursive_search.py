@@ -11,7 +11,7 @@ class TestRSMMethods(TestCase):
     def test(self):
         nb_initial_files = prepare_environment()
         nb_affected_files = 0
-        for file in os.listdir(os.path.join(os.path.dirname(__file__), "dicom_dest")):
+        for _ in os.listdir(os.path.join(os.path.dirname(__file__), "dicom_dest")):
             nb_affected_files += 1
         print(nb_initial_files)
         print(nb_affected_files)

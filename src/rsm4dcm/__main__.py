@@ -1,5 +1,5 @@
 import argparse
-import rsm4dcm
+from rsm4dcm.rsm4dcm import rsm
 
 def main():
     parser = parse_args()
@@ -19,7 +19,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "-t",
-        "--targetddd",
+        "--target",
         type=str,
         help="Path of the folder containing DICOM files (or subdirs with DICOM files)",
         required=True)
@@ -35,7 +35,7 @@ def parse_args():
 
 def do_rsm(args, *other):
     """handler for rsm function"""
-    rsm4dcm.rsm(args.target, args.outdir)
+    rsm(args.target, args.outdir)
 
 if __name__ == '__main__':
     main()
